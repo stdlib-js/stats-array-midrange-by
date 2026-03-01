@@ -33,11 +33,11 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Calculate the [midrange][midrange] of an array via a callback function.
+> Calculate the [mid-range][mid-range] of an array via a callback function.
 
 <section class="intro">
 
-The [**midrange**][midrange] is defined as the arithmetic mean of the maximum and minimum values.
+The [**mid-range**][mid-range] is defined as the arithmetic mean of the maximum and minimum values.
 
 </section>
 
@@ -73,7 +73,7 @@ var midrangeBy = require( '@stdlib/stats-array-midrange-by' );
 
 #### midrangeBy( x, clbk\[, thisArg] )
 
-Computes the [midrange][midrange] of an array via a callback function.
+Computes the [mid-range][mid-range] of an array via a callback function.
 
 ```javascript
 function accessor( v ) {
@@ -245,7 +245,7 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
 
-[midrange]: https://en.wikipedia.org/wiki/Mid-range
+[mid-range]: https://en.wikipedia.org/wiki/Mid-range
 
 </section>
 
