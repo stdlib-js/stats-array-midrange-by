@@ -50,7 +50,7 @@ The [**mid-range**][mid-range] is defined as the arithmetic mean of the maximum 
 ## Usage
 
 ```javascript
-import midrangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-midrange-by@esm/index.mjs';
+import midrangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-midrange-by@v0.0.0-esm/index.mjs';
 ```
 
 #### midrangeBy( x, clbk\[, thisArg] )
@@ -131,7 +131,7 @@ var cnt = context.count;
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import midrangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-midrange-by@esm/index.mjs';
+import midrangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-midrange-by@v0.0.0-esm/index.mjs';
 
 function accessor( v ) {
     return v * 2.0;
